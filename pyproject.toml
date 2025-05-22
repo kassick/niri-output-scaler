@@ -1,0 +1,19 @@
+[project]
+name = "niri-output-scaler"
+version = "0.1.0"
+description = "Cycle between output scales in niri"
+authors = [
+    {name = "Rodrigo Kassick",email = "kassick@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[tool.poetry.scripts]
+niri-output-scaler = "niri_output_scaler.__main__:main"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
